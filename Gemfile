@@ -2,9 +2,9 @@
 source "https://rubygems.org"
 
 #don't upgrade
-gem "rails", "6.0.0"
+gem "rails", "5.2.6"
 
-ruby "2.6.5"
+ruby "2.7.4"
 
 gem "aruba"
 gem "bcrypt"
@@ -24,7 +24,7 @@ gem "ruby-prof"
 gem "sassc-rails"
 gem "simplecov", require: false, group: :test
 gem "sqlite3"
-gem "therubyracer"
+gem "mini_racer"
 gem "turbolinks"
 gem "uglifier"
 gem "unicorn"
